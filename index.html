@@ -16,8 +16,9 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 		
 	
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
 		<link rel="stylesheet" href="css/styles.min.css">
-		<link type="text/css" rel="stylesheet" href="css/lightgallery.css" /> 
+	
 	</head>
 <body>
 	
@@ -80,7 +81,7 @@
 		<section class="" id="about">
 			<div class="container">
 				<div class="row titles">
-					<h1 class="h1">О нас</h1>
+					<h2 class="h1">О нас</h2>
 				</div>
 				<div class="row">
 					<div class="col-md-6 about wow fadeInLeft">
@@ -102,7 +103,7 @@
 					<div class="mx-auto subtitle py-5">Наши преимущества</div>
 				</div>
 				<div class="row">
-					<div class="col-5 col-md-2  offset-1 text-center offset-md-2 wow fadeIn" data-wow-delay="0.5s">
+					<div class="col-5 col-md-2  offset-1 text-center offset-md-2 wow fadeIn" data-wow-delay="0.5s"  data-wow-offset="3">
 						<img src="img/about1.png" class="about__image">
 						<div class="about__title">
 							Кембриджский
@@ -111,7 +112,7 @@
 							сертификат
 						</div>
 					</div>
-					<div class="col-5 col-md-2  text-center wow fadeIn" data-wow-delay="1s">
+					<div class="col-5 col-md-2  text-center wow fadeIn" data-wow-delay="0.7s" >
 						<img src="img/about2.png" height="60px">
 						<div class="about__title">
 							Контроль
@@ -120,7 +121,7 @@
 							качества
 						</div>
 					</div>
-					<div class="col-md-2 col-5 offset-md-0 offset-1 text-center wow fadeIn" data-wow-delay="1.5s">
+					<div class="col-md-2 col-5 offset-md-0 offset-1 text-center wow fadeIn" data-wow-delay="0.9s" >
 						<img src="img/about3.png" height="60px">
 						<div class="about__title">
 							Мультимедийные
@@ -129,7 +130,7 @@
 							программы нового поколения
 						</div>
 					</div>
-					<div class="col-md-2 col-5 text-center wow fadeIn" data-wow-delay="2s">
+					<div class="col-md-2 col-5 text-center wow fadeIn" data-wow-delay="1s" >
 						<img src="img/about4.png" height="60px">
 						<div class="about__title">
 							устные практикумы
@@ -146,13 +147,11 @@
 			</div>
 		</section>
 
-		<section class="section--blue" id="services">
+		<section class="section--blue mt-5" id="services">
 			<div class="container">
-				<div class="row">
-					<h1 class="h1 h1__blue">Учим английский</h1>
-				</div>
+					<h2 class="h1 h1__blue">Учим английский</h2>
 				<div class="row py-5">
-					<div class="col-8 level__text">
+					<div class="col-md-8 level__text">
 						Шаг за шагом, уровень <br/>за уровнем - к успешному овладению английским языком
 					</div>
 				</div>
@@ -298,7 +297,7 @@
 					</div>
 				</div>
 				<div class="row py-5">
-					<button class="btn btn--long mx-auto my-5 first__button ">
+					<button class="btn btn--long mx-auto my-md-5 first__button ">
 						Подобрать программу курса
 					</button>
 				</div>
@@ -361,7 +360,7 @@
 					</div>
 				</div>
 				<div class="travels">
-					<div class="slider">
+					<div class="slider my-5">
 						<div class="row">
 							<div class="col-md-6 pb-5">
 								<img class="w-100 travel__image" src="img/travel1.jpg">
@@ -389,7 +388,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="slider">
+					<div class="slider my-5">
 						<div class="row">
 							<div class="col-md-6 pb-5">
 								<img class="w-100 travel__image" src="img/travel1.jpg">
@@ -417,7 +416,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="slider">
+					<div class="slider my-5">
 						<div class="row">
 							<div class="col-md-6 pb-5">
 								<img class="w-100 travel__image" src="img/travel1.jpg">
@@ -509,22 +508,41 @@
 				</div>
 			</div>
 			<div class="event-pad">
-				<div class="row m-0">
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
+				<div class="row">
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
+							<img class="w-100" src="img/photo1.jpg">
+						</a>
+					</div>
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
+							<img class="w-100" src="img/photo1.jpg">
+						</a>
+					</div>
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
+							<img class="w-100" src="img/photo1.jpg">
+						</a>
+					</div>
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
+							<img class="w-100" src="img/photo1.jpg">
+						</a>
+					</div>
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
+							<img class="w-100" src="img/photo1.jpg">
+						</a>
+					</div>
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
+							<img class="w-100" src="img/photo1.jpg">
+						</a>
+					</div>
 				</div>
-				<div class="row m-0">
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-					<div class="col-md-2 col-6 gallery__image"><a href=""><img class="w-100" src="img/photo1.jpg"></a></div>
-				</div>
+				
+
+				
 				<div class="text-center pt-5">
 					<button class="btn mt-5 first__button ">
 						Больше фотографий
@@ -540,7 +558,6 @@
 						</div>
 			<div class="container">
 				<div class="row titles map titles--maps">
-					<img class="map__image" src="img/map.png">
 					<h1 class="h1 map__title">Контакты</h1>
 				</div>
 				<div class="row">
@@ -574,10 +591,7 @@
 		
 	<script src="js/jquery.min.js"></script>
 	<script src="js/scripts.min.js"></script>
-	<script src="js/lightgallery.min.js"></script>
-	    <!-- lightgallery plugins -->
-	<script src="js/lg-thumbnail.min.js"></script>
-	<script src="js/lg-fullscreen.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
 		<script>
 			// $(window).on('load', function(){ 
   	// 			var theroom = $("#theroom");
