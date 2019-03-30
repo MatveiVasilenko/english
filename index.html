@@ -24,8 +24,8 @@
 	
 	    <nav class="navbar navbar-expand-lg fixed-top design-nav" id="menu">
 	        <div class="container py-3">
-	            <div class="pl-4 menu__logo">
-	                <a href="index.html">
+	            <div class="menu__logo pr-4">
+	                <a class="pr-5" href="index.html">
 	                    <img class="" src="img/logo.png">
 	                </a>
 	            </div>
@@ -33,6 +33,7 @@
 	                <i class="fas fa-bars paragragh h2--color"></i>
 	            </button>
 	            <div class="collapse navbar-collapse justify-content-end align-items-center adaptationMenu" id="navbarNav">
+	                
 	                <ul class="navbar-nav sup-font align-items-center">
 	                    <li class="nav-item active">
 	                        <a class="nav-link" href="about.html">О нас<span class="sr-only">(current)</span></a>
@@ -52,7 +53,7 @@
 	                </ul>
 	            </div>
 	            <div class="pl-4" id="telephone">
-	                <div class="telephone"><a href="tel:+380979151281">+38 097 91 51 281</a></div>
+	                <div class="telephone"><a href="tel:+380979151281">+38 067 777 38 41</a></div>
 	            </div>
 	        </div>
 	    </nav>
@@ -223,7 +224,7 @@
 						Перед началом обучения необходимо определить уровень знания английского языка. Это позволит подобрать наиболее подходящую программу обучения. 
 					</div>
 				</div>
-				<div class="row py-5">
+				<div class="row py-md-5">
 					<div class="col-md-4">
 						<div class="row level">
 							<div class="col-6 level__form1">A1</div>
@@ -259,7 +260,7 @@
 						<div class="level__subtitle">Вы владеете языком довольно уверенно. Вы говорите бегло и в целом правильно, умеете связно выразить свои cмысл. Вы только не очень уверены в незнакомых и трудных ситуациях</div>
 					</div>
 				</div>
-				<div class="row py-5">
+				<div class="row py-md-5">
 					<div class="col-md-4">
 						<div class="row level">
 							<div class="col-6 level__form1">A2</div>
@@ -359,13 +360,12 @@
 						Учеба в Англии, совмещенная с увлекательной экскурсионной программой, - что может быть лучше?! Образование за рубежом – это разумные инвестиции в будущее.
 					</div>
 				</div>
-				<div class="travels">
-					<div class="slider my-5">
-						<div class="row">
+					<div class=" my-5">
+						<div class="row wow fadeInLeft">
 							<div class="col-md-6 pb-5">
 								<img class="w-100 travel__image" src="img/travel1.jpg">
 							</div>
-							<div class="col-md-6 pb-5">
+							<div class="col-md-6 pb-5 exam">
 								<h2 class="exam__title">Получить Кембриджский сертификат теперь можно и в Мариуполе!</h2>
 								<div class="exam__article pl-4">
 									Подтверждайте свои знания Кембриджским сертификатом. Эти экзамены для школьников, студентов, кому нужен язык для работы или просто для себя. Признание – мир возможностей.
@@ -374,7 +374,9 @@
 									Подробнее
 								</a>
 							</div>
-							<div class="col-md-6">
+						</div>
+						<div class="row wow fadeInRight">
+							<div class="col-md-6 exam order-md-first order-last">
 								<h2 class="exam__title">Получить Кембриджский сертификат теперь можно и в Мариуполе!</h2>
 								<div class="exam__article pl-4">
 									Подтверждайте свои знания Кембриджским сертификатом. Эти экзамены для школьников, студентов, кому нужен язык для работы или просто для себя. Признание – мир возможностей.
@@ -383,12 +385,11 @@
 									Подробнее
 								</a>
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 order-md-last order-first">
 								<img class="w-100 travel__image" src="img/travel1.jpg">
 							</div>
 						</div>
 					</div>
-				</div>
 			</div>
 		</section>
 
@@ -407,8 +408,16 @@
 								<div class="events__text">Lorem ipsum dolor sit amet.</div>
 							</a>
 						</div>
-						<div class="col-md-3 w-100">
-							<a href=""><img class="w-100 events--image" src="img/event1.jpg"></a>
+						<div class="col-md-3 w-100 events--future">
+							<a href="" class="events__img">
+								<img class="w-100 events--image" src="img/imageWorld1.jpg">
+								<div class="events__img--future">
+									<div class="events__day events__day--future">Monday</div>
+									<div class="events__number events__number--future">18</div>
+									<div class="events__month events__month--future">Februrary</div>
+									<div class="events__text events__text--future">Lorem ipsum dolor sit amet.</div>
+								</div>
+							</a>
 						</div>
 						<div class="col-md-3 events">
 							<a class="events__link"  href="">
@@ -418,13 +427,29 @@
 								<div class="events__text">Lorem ipsum dolor sit amet.</div>
 							</a>
 						</div>
-						<div class="col-md-3 ">
-							<a href=""><img class="w-100 events--image" src="img/event1.jpg"></a>
+						<div class="col-md-3 w-100 events--future">
+							<a href="" class="events__img">
+								<img class="w-100 events--image" src="img/imageWorld2.jpg">
+								<div class="events__img--future">
+									<div class="events__day events__day--future">Monday</div>
+									<div class="events__number events__number--future">18</div>
+									<div class="events__month events__month--future">Februrary</div>
+									<div class="events__text events__text--future">Lorem ipsum dolor sit amet.</div>
+								</div>
+							</a>
 						</div>
 					</div> 
 					<div class="row">
-						<div class="col-md-3 w-100">
-							<a href=""><img class="w-100 events--image" src="img/event1.jpg"></a>
+						<div class="col-md-3 w-100 events--future">
+							<a href="" class="events__img">
+								<img class="w-100 events--image" src="img/imageWorld3.jpg">
+								<div class="events__img--future">
+									<div class="events__day events__day--future">Monday</div>
+									<div class="events__number events__number--future">18</div>
+									<div class="events__month events__month--future">Februrary</div>
+									<div class="events__text events__text--future">Lorem ipsum dolor sit amet.</div>
+								</div>
+							</a>
 						</div>
 						<div class="col-md-3 events">
 							<a class="events__link"  href="">
@@ -434,8 +459,16 @@
 								<div class="events__text">Lorem ipsum dolor sit amet.</div>
 							</a>
 						</div>
-						<div class="col-md-3 ">
-							<a href=""><img class="w-100 events--image" src="img/event1.jpg"></a>
+						<div class="col-md-3 w-100 events--future">
+							<a href="" class="events__img">
+								<img class="w-100 events--image" src="img/imageWorld4.jpg">
+								<div class="events__img--future">
+									<div class="events__day events__day--future">Monday</div>
+									<div class="events__number events__number--future">18</div>
+									<div class="events__month events__month--future">Februrary</div>
+									<div class="events__text events__text--future">Lorem ipsum dolor sit amet.</div>
+								</div>
+							</a>
 						</div>
 						<div class="col-md-3 events">
 							<a class="events__link"  href="">
@@ -448,78 +481,80 @@
 					</div> 
 				</div>
 				<div class="row titles--gallery">
-					<h1 class="h1">Галерея</h1>
+					<h1 class="h1 h1--white">Галерея</h1>
 				</div>
 			</div>
-			<div class="event-pad">
-				<div class="row">
+		<div class="cont">
+			<div class="event-pad w-100 ">
+				<div class="row dnone">
 					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event2/ev7.jpg">
+							<img class="w-100" src="img/event2/ev7.jpg">
 						</a>
 					</div>
 					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event1/ev2.jpg">
+							<img class="w-100" src="img/event1/ev2.jpg">
 						</a>
 					</div>
 					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event1/ev3.jpg">
+							<img class="w-100" src="img/event1/ev3.jpg">
 						</a>
 					</div>
 					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event1/ev4.jpg">
+							<img class="w-100" src="img/event1/ev4.jpg">
 						</a>
 					</div>
 					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event2/ev9.jpg">
+							<img class="w-100" src="img/event2/ev9.jpg">
 						</a>
 					</div>
 					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
-						</a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
-						</a>
-					</div>
-					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
-						</a>
-					</div>
-					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
-						</a>
-					</div>
-					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
-						</a>
-					</div>
-					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
-						</a>
-					</div>
-					<div class="col-md-2 col-6 gallery__image">
-						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/photo1.jpg">
-							<img class="w-100" src="img/photo1.jpg">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event1/ev4.jpg">
+							<img class="w-100" src="img/event1/ev4.jpg">
 						</a>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event2/ev7.jpg">
+							<img class="w-100" src="img/event2/ev7.jpg">
+						</a>
+					</div>
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event1/ev2.jpg">
+							<img class="w-100" src="img/event1/ev2.jpg">
+						</a>
+					</div>
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event1/ev3.jpg">
+							<img class="w-100" src="img/event1/ev3.jpg">
+						</a>
+					</div>
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event1/ev4.jpg">
+							<img class="w-100" src="img/event1/ev4.jpg">
+						</a>
+					</div>
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event2/ev9.jpg">
+							<img class="w-100" src="img/event2/ev9.jpg">
+						</a>
+					</div>
+					<div class="col-md-2 col-6 gallery__image">
+						<a class="col-md-2 col-6 gallery__image" data-fancybox="gallery" href="img/event1/ev4.jpg">
+							<img class="w-100" src="img/event1/ev4.jpg">
+						</a>
+					</div>
+				</div>
+			</div>
 
 
 				
-				<div class="text-center pt-5">
+				<div class="text-center pb-5">
 					<a href="gallery.html" class="btn btn--a mt-5 first__button ">
 						Больше фотографий
 					</a>
@@ -618,8 +653,8 @@
 	<section class="section--footer py-4">
 		<div class="container">
 			<div class="row d-flex align-items-center">
-				<div class="col-md-3 col-8">
-					<img class="w-100" src="img/logo-foot.png">
+				<div class="col-md-3 col-8 offset-2 offset-md-0">
+					<a href="index.html"><img class="w-100" src="img/logo-foot.png"></a>
 				</div>
 				<div class=" col-md-1 pl-5 pl-md-0 offset-md-1 footer__item">
 					<div><a href="about.html">
