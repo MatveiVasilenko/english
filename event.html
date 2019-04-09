@@ -171,10 +171,10 @@
 							<div class="aboutUs__article color--white">Пробные Кембриджские экзамены для детей</div>
 						</div>
 					</div>
-					<div class="events__article px-4 color--white">
+					<div class="events__article text-overflow px-4 color--white">
 						Студентам студии в возрасте от 7 до 12 лет мы предлагаем попробовать свои силы и проверить на прочность полученные знания. Пробные Кембриджские экзамены для детей Pre1 Starters, A1 Movers, A2 Flyers. Заинтересовались? Количество мест ограничено Предварительная регистрация обязательна по тел. 067 777 38 41, ...
 					</div>
-					<button class="btn btn--about mx-4 my-4">
+					<button class="btn btn--about mx-4 my-4 btn-overflow">
 						Подробнее
 					</button> 
 				</div>
@@ -281,6 +281,32 @@
 			$(window).on('load', function(){ 
   				var theroom = $(".therooms");
   				theroom.removeClass('therooms');
+			});
+			var text = $('.text-overflow'),
+			     btn = $('.btn-overflow'),
+			       h = text[0].scrollHeight; 
+
+			if(h > 120) {
+				btn.addClass('less');
+				btn.css('display', 'block');
+			}
+
+			btn.click(function(e) 
+			{
+			  e.stopPropagation();
+
+			  if (btn.hasClass('less')) {
+			      btn.removeClass('less');
+			      btn.addClass('more');
+			      btn.text('Show less');
+
+			      text.animate({'height': h});
+			  } else {
+			      btn.addClass('less');
+			      btn.removeClass('more');
+			      btn.text('Show more');
+			      text.animate({'height': '120px'});
+			  }  
 			});
 	</script>
 
