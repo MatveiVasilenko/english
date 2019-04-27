@@ -36,15 +36,44 @@
 	            <div class="collapse navbar-collapse justify-content-end align-items-center adaptationMenu" id="navbarNav">
 	                
 	                <ul class="navbar-nav sup-font align-items-center">
-	                    <li class="nav-item active">
-	                        <a class="nav-link" href="about.html">О нас<span class="sr-only">(current)</span></a>
-	                     </li>
-	                     <li class="nav-item">
-	                        <a class="nav-link" href="level.html">Уровни<br/> английского</a>
-	                    </li>
-	                    <li class="nav-item">
-	                        <a class="nav-link color--blue" href="exam.html">Кембриджские<br/> экзамены</a>
-	                    </li>
+	                    <li class="nav-item dropdown">
+	                        <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown">
+	                          О нас
+	                        </a>
+	                        <!-- data-toggle="dropdown" -->
+	                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                          <a class="dropdown-item" href="event.html">События</a>
+	                          <a class="dropdown-item" href="gallery.html">Галерея</a>              
+	                          <a class="dropdown-item" href="world-general.html">Поездки</a>              
+	                        </div>
+	                    </li> 
+	                     <li class="nav-item dropdown">
+	                        <a class="nav-link dropdown-toggle" href="level.html" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+	                          Учим <br/> английский
+	                        </a>
+	                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                          <a class="dropdown-item" href="level.html">Уровни английского</a>
+	                          <a class="dropdown-item" href="levellittle.html">Дошкольники</a>
+	                          <a class="dropdown-item" href="levelsmall.html">Младшие школьники</a>              
+	                          <a class="dropdown-item" href="levelmedium.html">Старшие школьники</a>              
+	                          <a class="dropdown-item" href="levelhard.html">Взрослые</a>              
+	                        </div>
+	                    </li> 
+	                    <li class="nav-item dropdown">
+	                        <a class="nav-link dropdown-toggle color--blue" href="exam.html" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+	                          Кембриджские <br/> экзамены
+	                        </a>
+	                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                          <a class="dropdown-item" href="exam-key.html">A2 Key</a>
+	                          <a class="dropdown-item" href="exam-pet.html">B1 Preliminary</a>              
+	                          <a class="dropdown-item" href="exam-fce.html">B2 First</a>              
+	                          <a class="dropdown-item" href="exam-cae.html">C1 Advanced</a>              
+	                          <a class="dropdown-item" href="exam-cpe.html">C2 Proficiency</a>              
+	                          <a class="dropdown-item" href="exam-start.html">Starters</a>              
+	                          <a class="dropdown-item" href="exam-mov.html">Movers</a>              
+	                          <a class="dropdown-item" href="exam-yle.html">Flyers</a>              
+	                        </div>
+	                    </li> 
 	                    <li class="nav-item">
 	                        <a class="nav-link" href="http://imark.englishschool.kiev.ua/">Электронный<br/> дневник</a>
 	                    </li>
@@ -151,10 +180,10 @@
 				<a href="exam-cpe.html" class="col-md-2 col-6 offset-3 offset-md-0 exams__item" style="background-color: #0c4370;">
 					<img class="exams__image w-100" src="img/exam.png">
 					<div class="exams__title">
-						C2<br/> Profiencly
+						C2<br/> Proficiency
 					</div>
 					<div class="exams__level">C2</div>
-					<div class="exams__descrip">Profiencly</div>
+					<div class="exams__descrip">Proficiency</div>
 				</a>	
 			</div>
 
