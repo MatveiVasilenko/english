@@ -35,15 +35,40 @@
 	            <div class="collapse navbar-collapse justify-content-end align-items-center adaptationMenu" id="navbarNav">
 	                
 	                <ul class="navbar-nav sup-font align-items-center">
-	                    <li class="nav-item active">
-	                        <a class="nav-link" href="about.html">О нас<span class="sr-only">(current)</span></a>
-	                     </li>
-	                     <li class="nav-item">
-	                        <a class="nav-link" href="level.html">Уровни<br/> английского</a>
-	                    </li>
-	                    <li class="nav-item">
-	                        <a class="nav-link" href="exam.html">Кембриджские<br/> экзамены</a>
-	                    </li>
+	                    <li class="nav-item dropdown">
+	                        <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown">
+	                          О нас
+	                        </a>
+	                        <!-- data-toggle="dropdown" -->
+	                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                          <a class="dropdown-item" href="#">События</a>
+	                          <a class="dropdown-item" href="#">Галерея</a>              
+	                          <a class="dropdown-item" href="#">Поездки</a>              
+	                        </div>
+	                    </li> 
+	                     <li class="nav-item dropdown">
+	                        <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+	                          Учим <br/> английский
+	                        </a>
+	                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                          <a class="dropdown-item" href="level.html">Уровни английского</a>
+	                          <a class="dropdown-item" href="levellittle.html">Дошкольники</a>
+	                          <a class="dropdown-item" href="levelsmall.html">Младшие школьники</a>              
+	                          <a class="dropdown-item" href="levelmedium.html">Старшие школьники</a>              
+	                          <a class="dropdown-item" href="levelhard.html">Взрослые</a>              
+	                        </div>
+	                    </li> 
+	                    <li class="nav-item dropdown">
+	                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+	                          Кембриджские <br/> экзамены
+	                        </a>
+	                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                          <a class="dropdown-item" href="#">Уровни английского</a>
+	                          <a class="dropdown-item" href="#">Младшие школьники</a>              
+	                          <a class="dropdown-item" href="#">Старшие школьники</a>              
+	                          <a class="dropdown-item" href="#">Взрослые</a>              
+	                        </div>
+	                    </li> 
 	                    <li class="nav-item">
 	                        <a class="nav-link" href="http://imark.englishschool.kiev.ua/">Электронный<br/> дневник</a>
 	                    </li>
@@ -57,6 +82,11 @@
 	            </div>
 	        </div>
 	    </nav>
+	
+	
+	<script>
+	    
+	</script>
 		<section class="section h-100" id="home">
 			<div class="container h-100">
 				<div class="h-100 d-flex flex-column justify-content-center">
@@ -85,7 +115,7 @@
 					<h2 class="h1">О нас</h2>
 				</div>
 				<div class="row">
-					<div class="col-md-6 about wow fadeInLeft">
+					<div class="col-md-6 about wow fadeInLeft text-justify">
 						<p>
 							Студия «English School.ua»  обучает дошкольников, школьников и взрослых английскому языку. Это является основным направлением деятельности студии. 
 						</p>
@@ -164,7 +194,7 @@
 						<div class="level__bg1">
 							<div class="level__bg--title pb-5">Дошкольники</div>
 							<div class="level__bg--title">5-6 лет</div>
-							<div class="level__bg--text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic minus eius dolor quis in numquam accusantium commodi illo, ullam quo?</div>
+							<div class="level__bg--text ">Программа разработана для самых маленьких учеников, чтобы привить им любовь к иностранным языкам, заложить хорошую языковую базу, а также научиться работать и слышать друг друга в коллективе. </div>
 							<div class="text-center level__bg--btn">
 								<button class="btn btn--level my-2 ">
 									Подробнее
@@ -179,7 +209,7 @@
 						<div class="level__bg1 	level__bg1--small">
 							<div class="level__bg--title pb-3">Младшие школьники</div>
 							<div class="level__bg--title">7-10 лет</div>
-							<div class="level__bg--text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic minus eius dolor quis in numquam accusantium commodi illo, ullam quo?</div>
+							<div class="level__bg--text ">Программа разработана для младших школьников, направлена на быстрое изучение минимально необходимого словарно запаса для дальнейшего интенсивного изучения английского языка.</div>
 							<div class="text-center level__bg--btn">
 								<button class="btn btn--level my-2 ">
 									Подробнее
@@ -194,7 +224,7 @@
 						<div class="level__bg1 level__bg1--medium">
 							<div class="level__bg--title pb-3">Старшие школьники</div>
 							<div class="level__bg--title">10-16 лет</div>
-							<div class="level__bg--text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic minus eius dolor quis in numquam accusantium commodi illo, ullam quo?</div>
+							<div class="level__bg--text ">Программа-путешествие в мир английского языка. Догоняем и перегоняем школьную программу, ставим амбициозные цели.</div>
 							<div class="text-center level__bg--btn">
 								<button class="btn btn--level my-2 ">
 									Подробнее
@@ -209,7 +239,7 @@
 						<div class="level__bg1 level__bg1--hard">
 							<div class="level__bg--title pb-5">Взрослые</div>
 							
-							<div class="level__bg--text pt-4 mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic minus eius dolor quis in numquam accusantium commodi illo, ullam quo?</div>
+							<div class="level__bg--text pt-4 mt-5">Программа общего английского язык предполагает одновременное формирование всех языковых навыков: устной речи, восприятия на слух, чтения, письма.</div>
 							<div class="text-center level__bg--btn">
 								<button class="btn btn--level my-2 ">
 									Подробнее
@@ -402,10 +432,10 @@
 					<div class="row py-5">
 						<div class="col-md-3 events wow fadeIn">
 							<a class="events__link" href="">
-								<div class="events__day">Monday</div>
+								<div class="events__day">Суббота</div>
 								<div class="events__number">18</div>
-								<div class="events__month">Februrary</div>
-								<div class="events__text">Lorem ipsum dolor sit amet.</div>
+								<div class="events__month">Мая</div>
+								<div class="events__text">Кембриджские экзамены</div>
 							</a>
 						</div>
 						<div class="col-md-3 w-100 events--future wow fadeIn" data-wow-delay="0.1s">
@@ -413,18 +443,18 @@
 								<img class="w-100 events--image" src="img/imageWorld1.jpg">
 								<div class="events__img--future">
 									<div>
-										<div class="events__month events__month--future">Februrary</div>
-										<div class="events__text events__text--future">Lorem ipsum dolor sit amet.</div>
+										<div class="events__month events__month--future">1 июля 2018</div>
+										<div class="events__text events__text--future">Поездка в Лондон</div>
 									</div>
 								</div>
 							</a>
 						</div>
 						<div class="col-md-3 events wow fadeIn" data-wow-delay="0.2s">
 							<a class="events__link"  href="">
-								<div class="events__day">Monday</div>
-								<div class="events__number">18</div>
-								<div class="events__month">Februrary</div>
-								<div class="events__text">Lorem ipsum dolor sit amet.</div>
+								<div class="events__day">Суббота</div>
+								<div class="events__number">25</div>
+								<div class="events__month">Мая</div>
+								<div class="events__text">Ярмарка</div>
 							</a>
 						</div>
 						<div class="col-md-3 w-100 events--future wow fadeIn" data-wow-delay="0.3s">
@@ -432,8 +462,8 @@
 								<img class="w-100 events--image" src="img/imageWorld2.jpg">
 								<div class="events__img--future">
 									<div>
-										<div class="events__month events__month--future">Februrary</div>
-										<div class="events__text events__text--future">Lorem ipsum dolor sit amet.</div>
+										<div class="events__month events__month--future">1 Сентября 2018</div>
+										<div class="events__text events__text--future">Церемония нагрождения (Кембриджские экзамены)</div>
 									</div>
 								</div>
 							</a>
@@ -445,18 +475,18 @@
 								<img class="w-100 events--image" src="img/imageWorld3.jpg">
 								<div class="events__img--future">
 									<div>
-										<div class="events__month events__month--future">Februrary</div>
-										<div class="events__text events__text--future">Lorem ipsum dolor sit amet.</div>
+										<div class="events__month events__month--future">19 Апреля 2018</div>
+										<div class="events__text events__text--future">Кембриджские экзамены</div>
 									</div>
 								</div>
 							</a>
 						</div>
 						<div class="col-md-3 events wow fadeIn" data-wow-delay="0.5s">
 							<a class="events__link"  href="">
-								<div class="events__day">Monday</div>
-								<div class="events__number">18</div>
-								<div class="events__month">Februrary</div>
-								<div class="events__text">Lorem ipsum dolor sit amet.</div>
+								<div class="events__day">Суббота</div>
+								<div class="events__number">25</div>
+								<div class="events__month">Июня</div>
+								<div class="events__text">Поездка в Лондон</div>
 							</a>
 						</div>
 						<div class="col-md-3 w-100 events--future wow fadeIn" data-wow-delay="0.6s">
@@ -464,18 +494,18 @@
 								<img class="w-100 events--image" src="img/imageWorld4.jpg">
 								<div class="events__img--future">
 									<div>
-										<div class="events__month events__month--future">Februrary</div>
-										<div class="events__text events__text--future">Lorem ipsum dolor sit amet.</div>
+										<div class="events__month events__month--future">19 мая 2019</div>
+										<div class="events__text events__text--future">Ярмарка</div>
 									</div>
 								</div>
 							</a>
 						</div>
 						<div class="col-md-3 events wow fadeIn" data-wow-delay="0.7s">
 							<a class="events__link"  href="">
-								<div class="events__day">Monday</div>
-								<div class="events__number">18</div>
-								<div class="events__month">Februrary</div>
-								<div class="events__text">Lorem ipsum dolor sit amet.</div>
+								<div class="events__day">Воскресенье</div>
+								<div class="events__number">1</div>
+								<div class="events__month">Сентября</div>
+								<div class="events__text">Церемония нагрождения (Кембриджские экзамены)</div>
 							</a>
 						</div>
 					</div> 
@@ -578,7 +608,7 @@
 						<div class="row d-flex align-items-center maps__contact--adress">
 							<div class="offset-2 col-2"><img class="w-100" src="img/local.png"></div>
 							<div class="col-8 p-0">
-								Украина, Мариуполь<br/>ЦУМ, 5 этаж
+								Украина, Мариуполь<br/>ЦУМ, 5 этаж, офис 517
 							</div>
 						</div>
 						<div class="row d-flex align-items-center maps__contact--adress">
