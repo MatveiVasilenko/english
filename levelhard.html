@@ -236,14 +236,31 @@
 						<div class="form-group forms__item">
 						   	<input type="email" class="form-control" placeholder="Ваш email">
 						</div>
-						<button type="submit" class="btn forms__btn">Записаться</button>
+						<button type="button" class="btn forms__btn" data-toggle="modal" data-target="#send">
+						  	Записаться
+						</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	
+<!-- Modal -->
+<div class="modal fade" id="send" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    	<div class="modal-content py-5">
+      		<div class="text-center py-5">
+      			<img src="img/logo.png">
+      		</div>
+			<div class="row">
+				<div class="col-10 offset-1">
+					<div class="modal__title text-center py-5">Спасибо за заявку!</div>
+					<div class="modal__text text-center py-5">Мы перезвоним Вам в ближайшее время, а пока что можно посмотреть новые фотографии мероприятий в нашей <a class="modal__link" href="gallery.html">фотогалерее</a></div>
+				</div>
+			</div>
+    	</div>
+  </div>
+</div>	
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/scripts.min.js"></script>
